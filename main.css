@@ -1,0 +1,30 @@
+body {
+    color: rgb(221, 210, 210);
+}
+
+div {
+    
+}
+.background {
+    margin: 0 auto;
+    height: 500px;
+
+    
+    background: url(./images/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+    background-size: 75% 50%:;
+    
+}
+
+.par1 {
+    background: black
+
+}
+
+.par2 {
+    background: #222222
+
+}
+
+.par3 {
+    background: #333333
+}
