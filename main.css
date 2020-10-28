@@ -18,6 +18,7 @@ body, div, p{ margin: 0;
     font-size: 18px;
     margin-bottom: 0;
     border-bottom: 0;
+    padding-top: 0px;
    
 }
 
@@ -33,13 +34,13 @@ text-decoration: none;
 }
 .background {
 
-    height: 400px;
+    height: 100vh;
     
     
 
     
     background-image: url(./images/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
-    padding: 55px;
+    padding: 1px;
     
 }
  
@@ -53,6 +54,7 @@ text-decoration: none;
      text-align: center;
      font-size: 62px;
      padding-bottom: 0;
+     margin-top: 175px;
 
  }
 .submain {
@@ -63,19 +65,42 @@ text-decoration: none;
 
 .msgnbread {
     display: flex;
+    background-image: url(images/human-holding-a-bread-745988.jpg); width:40%; height: 300px;
+    background-size: cover;
+    background-position: center;
 }
 
 .msgnpineapple {
     display: flex;
+    
+}
+.pineapple {
+    background-image: url(images/green-pineapple-fruit-with-brown-framed-sunglasses-beside-1161547.jpg); width: 40%; height: 300px;
+    background-size: cover;
+    background-position: center;
+
 }
 
+
 .msgnpasta {
+    
+    display: flex;
+
+
+}
+.pasta {
+    display: flex;
+    background-image: url(images/cooked-pasta-on-brown-wooden-bowl-803963.jpg); width: 40%; height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.firstsection {
     display: flex;
 }
 
-
-
 .par1 {
+    width: 60%;
     background: black;
     padding-top:60px;
     padding-left: 35px;
@@ -84,6 +109,7 @@ text-decoration: none;
 }
 
 .par2 {
+    width: 60%;
     background: #222222;
     padding-top:60px;
     padding-left: 35px;
@@ -92,6 +118,7 @@ text-decoration: none;
 }
 
 .par3 {
+    width: 60%;
     background: #333333;
 padding-top:60px;
 padding-left: 35px; }
